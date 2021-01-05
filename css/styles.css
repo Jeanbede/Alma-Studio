@@ -1,0 +1,182 @@
+
+.image {
+    display: block;
+    width: 30%;
+    height: 50%;
+    margin-left: 110px;
+  }
+.container{
+    display: inline-block;
+    position: relative;
+    width: 20%;
+     background-position: center;
+  }
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 140%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: white;
+  }
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: rgb(19, 1, 1);
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin: 0 auto;
+    left: 0;
+    right: 0;    
+    width: 60%; 
+      }
+
+.portfolio>img{
+    width: 230px;
+    height: 150px;
+    margin-left: 20px;
+    background-color: white;
+}
+
+ .contact{
+    position: relative;
+    text-align: center; 
+}
+
+ 
+body{
+    text-align: center;
+    font-family: 'Bentham', serif;
+    background-color: white;
+    }
+    .about>p{
+        display: flex;
+  justify-content: center;
+  align-items: center;
+  /* display: inline-block; */
+  /* vertical-align: middle; */
+  /* align-items: center; */
+  /* color: red; */
+
+    }
+
+
+
+    h1{
+        text-decoration: underline black;
+        color: green;
+        font-weight: 100;
+    }
+    h2{
+        font-size: 25px;
+        font-weight: bold;
+        color: rgb(1, 4, 7);
+        transition: 0.01s;
+        text-shadow: rgb(0, 14, 10) 1px 1px;
+        font-style: italic;
+        
+    }
+
+    h3{
+        font-weight: bold;
+        font-size: 20px;
+        /* text-shadow: 1px 1px green; */
+        /* text-decoration: underline; */
+    }
+    h4{
+        font-weight: bold;
+        /* text-decoration: underline; */
+    }
+
+
+    .reach{
+        position: absolute;
+        left: 650px;
+        /* display: inline-block; */
+        /* right: 1150px;         */
+        text-align: center;
+        top: 0px;
+        /* display: flex; */
+        /* justify-content: center; */
+        align-items: center;
+     }
+    
+    .reach>p{
+        color: white;
+        font-size: 40px;
+        font-weight: bold;
+        /* text-align: center; */
+         }
+         .reach>form{
+             display: inline;
+             /* text-align: right; */
+         }
+         :placeholder-shown{
+            display:flex;
+         }
+
+.footer> img{
+    position: inline-block;
+    }
+    a{
+        font-size: 30px;
+        text-shadow: black 2px 2px;
+        transition: -0s;
+        font-style: italic;
+    }
+ .last> p{
+color: rgb(1, 71, 71);
+font-weight: bold;
+font-size: 25px;
+ }
+
+ .step{
+    position: relative;
+    text-align: center; 
+}
+ .well{
+    position: absolute;
+     right: 700px;        
+    text-align: center;
+    top: 80px;
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+ }
+ .well>p:nth-child(4) {
+ 
+    font-size:small;;
+ }
+
+ .service{
+    position: relative;
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .serve{
+    position: absolute;
+     /* right: 700px;         */
+    text-align: center;
+    top: 170px;
+    color: white;
+    /* font-weight: bold; */
+    font-size: 20px;
+    
+ }
+ .serve>p{
+     position:inline-block;
+ }
