@@ -24,7 +24,7 @@ Technologies Used
 HTML ;CSS; Java-Script; Bootstrap and jquery .
 
 Support and contact details
-If your would like to contribute to this project, fork the project and raise a PR: You can reach us throuh mailing: <njeanbeda@hotmail com> Tel: 098756879(fax: 09090) WEBSITE: https://jeanbede.github.io/Alma-Studio/
+If your would like to contribute to this project, fork the project and raise a PR: You can reach us throuh mailing: <njeanbeda@gtmail com> Tel: 0720427590(fax: 09090) WEBSITE: https://jeanbede.github.io/Alma-Studio/
 
 <License>
 MIT Copyright (c) 2020 Jean Bede.
