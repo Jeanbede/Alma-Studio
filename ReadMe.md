@@ -6,7 +6,7 @@ This project entails on the very fast beging and guidelines on website creation.
 Setup/Installation Requirements
 Move into the cloned directory
 
-Clone the repository to your local machine *Then use the terminal to open the project. *Preferably open the project by using Visual basics coding tool. $ git clone :https:https://github.com/Jeanbede/alma-designs
+Clone the repository to your local machine *Then use the terminal to open the project. *Preferably open the project by using Visual basics coding tool. $ git clone :https:https:https://jeanbede.github.io/Alma-Studio/
 
 *Much advisible one to download on the local machichine below softwares; 
 A. Visual Basic Studio for coding.
@@ -24,7 +24,7 @@ Technologies Used
 HTML ;CSS; Java-Script; Bootstrap and jquery .
 
 Support and contact details
-If your would like to contribute to this project, fork the project and raise a PR: You can reach us throuh mailing: <njeanbeda@hotmail com> Tel: 098756879(fax: 09090) WEBSITE: https://github.com/Jeanbede/alma-designs
+If your would like to contribute to this project, fork the project and raise a PR: You can reach us throuh mailing: <njeanbeda@hotmail com> Tel: 098756879(fax: 09090) WEBSITE: https://jeanbede.github.io/Alma-Studio/
 
 <License>
 MIT Copyright (c) 2020 Jean Bede.
