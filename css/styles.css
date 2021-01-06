@@ -249,3 +249,9 @@ font-size: 25px;
      background:transparent;
      color: white !important;
  }
+
+ input::placeholder {
+    color:white;
+    font-style: italic;
+  }
+  

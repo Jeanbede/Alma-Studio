@@ -34,11 +34,8 @@ setInterval(function() {
                 $(this).toggle();
                 $('#container2').toggle();
              });
-            });
-        
- 
                              
-
+        });
 
 
 
