@@ -4,31 +4,57 @@ setInterval(function() {
 }, 1000);
 
 
+   $(document).ready(function () {
+        $('#container').click(function () {
+            $(this).hide();
+            $('.text').show();
+        });
+      
+            $('.text').click(function(){
+                 $(this).hide();
+                $('#container').show();
+        });
+                        
+               $('#container1').click(function () {
+                $(this).hide();
+                $('.development').show();
+             });
+
+             $('.development').click(function () {
+                $(this).hide();
+                $('#container1').show();
+             });
+
+             $('#container2').click(function () {
+                $(this).toggle();
+                $('.product').toggle();
+             });
+
+             $('.product').click(function () {
+                $(this).toggle();
+                $('#container2').toggle();
+             });
+            });
+        
+ 
+                             
 
 
 
 
-$(document).ready(function() {
-$('.container') .hover(function() {
-    $(this)
-    .find( '.caption')
-    .stop()
-    .animate({bottom: '0'}, {duration: 1600, easing: 'easeOutQuart' });
-}, function() {
-$(this)
-.find('.caption')
-.stop()
-.animate({bottom: '-100px'}, {duration: 1600, easing: 'easeOutQuart'});
 
-}, function() {
-    $(this)
-    .find('.caption')
-    .stop()
-    .animate({bottom: '-200px'}, {duration: 1600, easing: 'easeOutQuart'});
+                            
+
+               
 
 
 
+             
+           
 
-});
 
-});
+       
+
+
+
+        
