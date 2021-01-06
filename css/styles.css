@@ -4,98 +4,45 @@
     width: 30%;
     height: 50%;
     margin-left: 110px;
-  }
-
-  
+  }  
 #container{
     display: inline-block;
     position: relative;
     width: 20%;
-     background-position: center;
     }
 
   #container1{
     display: inline-block;
     position: relative;
     width: 20%;
-     background-position: center;
-  }
-
-
-
+      }
   #container2{
     display: inline-block;
     position: relative;
     width: 20%;
-     background-position: center;
-  }
-
-/* .overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 140%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: white;
-  }
-  .container:hover .overlay {
-    opacity: 1;
-  } */
-  
-  .text{
-    color: rgb(19, 1, 1);
-    font-size: 20px;
-    /* position: absolute; */
-    top: 50%;
-    left: 50%;
-    right: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    margin: 0 auto;
-    left: 0;
-    right: 0;    
-    width: 60%;  
-    display: none;
-    /* position: absolute; */
       }
-
+ 
+  .text{
+    font-size: 20px;
+     margin-left: 380px;
+     width: 20%;  
+    display: none;
+    
+      }
       .development{
-        color: rgb(19, 1, 1);
         font-size: 20px;
-        /* position: absolute; */
-        top: 50%;
-        left: 50%;
-         right: 50%;
-        transform: translate(-50%, -50%);
-        text-align: center;
-        margin: 0 auto;
-        left: 0;
-        right: 0;    
-        width: 60%;  
-        display: none;
-        font-size: 20px;
-       
-        
-          }
+        margin-left: 780px;
+        width: 20%;  
+       display: none;
+              
+         }
 
           .product{
-            color: rgb(19, 1, 1);
             font-size: 20px;
-            /* position: absolute; */
-            top: 50%;
-            left: 50%;
-             right: 50%;
-            transform: translate(-50%, -50%);
-            text-align: center;
-            margin: 0 auto;
-            left: 0;
-            right: 0;    
-            width: 60%; 
-            display: none;
+        margin-left: 1200px;
+        width: 20%;  
+       display: none;
+       margin-bottom: 2350px;
               }
 
 
@@ -119,13 +66,10 @@
     margin-left: 20px;
     background-color: white;
 }
-
  .contact{
     position: relative;
     text-align: center; 
-}
-
- 
+} 
 body{
     text-align: center;
     font-family: 'Bentham', serif;
@@ -135,12 +79,7 @@ body{
         display: flex;
   justify-content: center;
   align-items: center;
-
-
     }
-
-
-
     h1{
         text-decoration: underline black;
         color: green;
@@ -153,9 +92,7 @@ body{
         transition: 0.01s;
         text-shadow: rgb(0, 14, 10) 1px 1px;
         font-style: italic;
-        
-    }
-
+         }
     h3{
         font-weight: bold;
         font-size: 20px;
@@ -237,8 +174,7 @@ font-size: 25px;
     text-align: center;
     top: 170px;
     color: white;
-  
-    font-size: 20px;
+      font-size: 20px;
     
  }
  .serve>p{
