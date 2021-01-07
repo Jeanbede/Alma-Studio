@@ -35,17 +35,7 @@ setInterval(function() {
                 $('#container2').toggle();
              });
              
-
-            //  $('a').hover(function () {
-            //     $(this).toggle();
-            //     $('h1').toggle();
-            //  });
-
-            //  $('h1').hover(function () {
-            //     $(this).toggle();
-            //     $('a').toggle();
-            //  });
-                       
+                    
              
         var btn = document.getElementById("myBtn");
 
@@ -76,7 +66,12 @@ setInterval(function() {
     });
                
 
-
+    $("#my-form").submit(function(event) {
+      event.preventDefault();
+      var name = $("#contact-name").val();
+      alert("Client " + name + " we have received your message,Thank you for reaching out to us!!!");
+      document.getElementById("my-form").reset();
+  });
 
              
            
