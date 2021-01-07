@@ -20,34 +20,40 @@
     display: inline-block;
     position: relative;
     width: 20%;
-      }
- 
+      } 
   .text{
     font-size: 20px;
      margin-left: 380px;
      width: 20%;  
     display: none;
-    
       }
       .development{
         font-size: 20px;
         margin-left: 780px;
         width: 20%;  
        display: none;    
+       display: none; 
          }
-
           .product{
             font-size: 20px;
         margin-left: 1200px;
         width: 20%;  
        display: none;
-       margin-bottom: 350px;
-              }
-
+          }
 .contact{
     position: relative;
      float:center;
 } 
+
+.portfolio{
+    width: auto;
+    height: auto;
+   }
+ .contact{
+    position: relative;
+    text-align: center; 
+   } 
+
 body{
     text-align: center;
     font-family: 'Bentham', serif;
@@ -78,14 +84,12 @@ body{
     h4{
         font-weight: bold;
       }
-
     .reach{
         position: absolute;
-        left: 550px;
-           text-align: center;
-        top: 0px;
-           
-            float:center;
+        left: 550px;   
+        text-align: center;
+        top: 0px;    
+        align-items: center;
      }
         .reach>p{
         color: white;
@@ -93,12 +97,11 @@ body{
         font-weight: bold;
         text-align: center;
                 }
-         .reach>form{
-             display: inline;
-                }
+         
          :placeholder-shown{
             display:flex;
-         }
+         }          
+        
 .footer> img{
     position: inline-block;
     }
@@ -127,8 +130,7 @@ font-size: 25px;
     font-size: 40px;
  }
  .well>p:nth-child(4) {
- 
-    font-size:small;;
+     font-size:small;;
  }
  .service{
     position: relative;
@@ -139,34 +141,50 @@ font-size: 25px;
 }
  .serve{
     position: absolute;
-  
-    text-align: center;
+     text-align: center;
     top: 170px;
     color: white;
       font-size: 20px;
-     }
+   }
  .serve>p{
      position:inline-block;
  }
+
  #contact-name, #contact-email, #contact-message{
      background:transparent;
      color: white !important;
  }
  input::placeholder {
-    color:white;
+    
     font-style: italic;
+    font-weight: 60px;
+    color: white;
   }
-
 
 .port8{
     position: relative;
+ /* background-color: rgb(14, 13, 13);     */
+   opacity: 0.3;
 }
 .bail{
     position: absolute;
-    border: white 3px 3px solid;
-    /* color: white; */
-    font: 40px ;
-    text-align: center;
+    border: white 4px 4px solid;
+     text-align: left;
+    left: 830px;   
+    bottom: 15px;
+   color: white;
+   font-weight: 40px;
+     top: 10px;  
+   border-style: outset;
+   border-style: solid;
+ padding-left: 40px;
+ padding-bottom: 78px;
+
+  box-sizing: border-box;
+  background-color: rgb(14, 13, 13);    
+  opacity: 0.7;
+  font-size: 30px;
+  
 }
 
 .portfolio>img{
@@ -174,12 +192,12 @@ font-size: 25px;
     /* height: 150px; */
     /* margin-left: 20px; */
     /* background-color: white; */
-    display: inline;
+    /* display: inline; */
 }
 .contact-name,.contact-email{
     display: inline;
-    /* align-items: center; */
-    float:center;
+    align-items: center;
+   
 }
 
   .port1{
@@ -206,4 +224,7 @@ font-size: 25px;
   .port8{
     display:inline-block block;
   }
-  
+
+ 
+
+   
