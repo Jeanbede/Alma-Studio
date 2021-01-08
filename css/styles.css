@@ -32,13 +32,17 @@
         margin-left: 780px;
         width: 20%;  
        display: none;    
-       display: none; 
-         }
+       background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+     
+    }
           .product{
             font-size: 20px;
         margin-left: 1200px;
         width: 20%;  
        display: none;
+       
           }
 .contact{
     position: relative;
@@ -164,7 +168,6 @@ font-size: 25px;
 .port8{
     position: relative;
  display: inline;
-   /* opacity: 0.3; */
      
 }
 .bail{
@@ -196,7 +199,6 @@ font-size: 25px;
     display:inline-block block;
   }
  
-
  
 
    
