@@ -69,7 +69,7 @@ setInterval(function() {
     $("#my-form").submit(function(event) {
       event.preventDefault();
       var name = $("#contact-name").val();
-      alert("Client " + name + " we have received your message,Thank you for reaching out to us!!!");
+      alert("Our Dear Client " + name + " we have received your message,Thank you for reaching out to us!!!");
       document.getElementById("my-form").reset();
   });
 
