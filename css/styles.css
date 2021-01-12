@@ -1,17 +1,17 @@
-
+/* 
 .image {
     display: block;
     width: 30%;
     height: 50%;
     margin-left: 110px;
-  }  
-#container{
+  }   */
+/* #container{
     display: inline-block;
     position: relative;
     width: 20%;
-    }
+    } */
 
-  #container1{
+  /* #container1{
     display: inline-block;
     position: relative;
     width: 20%;
@@ -26,6 +26,7 @@
      margin-left: 380px;
      width: 20%;  
     display: none;
+    display: absolute;
       }
       .development{
         font-size: 20px;
@@ -35,6 +36,7 @@
        background-repeat: no-repeat;
     background-size: contain;
     background-position: center center;
+    display: absolute;
      
     }
           .product{
@@ -42,8 +44,10 @@
         margin-left: 1200px;
         width: 20%;  
        display: none;
-       
-          }
+       display: absolute;
+                 } */
+
+
 .contact{
     position: relative;
      float:center;
@@ -62,6 +66,7 @@ body{
     text-align: center;
     font-family: 'Bentham', serif;
     background-color: white;
+    font-size: 20px;
     }
     .about>p{
         display: flex;
@@ -104,6 +109,8 @@ body{
          
          :placeholder-shown{
             display:flex;
+            row-gap: 3px;
+            columns: 4px;
          }          
         
 .footer> img{
@@ -168,37 +175,101 @@ font-size: 25px;
 .port8{
     position: relative;
  display: inline;
-     
-}
+  }
+  
+ 
+
 .bail{
     position: absolute;
     border: white 4px 4px solid;
-      margin-left: 1130px;
-    margin-right: 780px;
+      margin-left: 1280px;
+    /* margin-right: 780px; */
     color: white;
    font-weight: 40px;
-     top: -65px;  
+     padding-top:100px;
    border-style: outset;
    border-style: solid;
-  padding-bottom: 140px;
- padding-left: 45px;
-  bottom: 80px;
+  padding-bottom: -4300px;
+ padding-left: 130px;
+  bottom: -1130px;
+  float: right;
   box-sizing: border-box;
   background-color: rgb(14, 13, 13);    
   opacity: 0.8;
   font-size: 30px;
-    
-}
+    }
 
 .contact-name,.contact-email{
     display: inline;
     align-items: center;
    }
  
-  .port5{
+   .port5{
     display:inline-block block;
-  }
- 
- 
+  }   
 
-   
+ #what-we-do img {
+  cursor: pointer;
+}
+#portfolio img:hover {
+  padding: 1rem;
+  /* font-family: 'Crimson Pro', serif; */
+  font-size: 40px;
+  /* color: rgb(26, 163, 140); */
+}
+.overlay{
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  opacity: 0.5;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  color: black;
+}
+::placeholder {
+  color: white;
+  /* padding: 25px; */
+}
+.jump {
+  cursor: pointer;
+}
+#development-p, #design-p, #product-p{
+  display: none;
+}
+/* .img-fluid{
+  width: 200px;
+  height: 200px;
+} */
+
+
+
+
+/* 
+media only screen and (max-width: 768px) {
+#what-we-do > .container > .row, #portfolio > .container > .row, #contact > {
+          flex-direction: column;
+          align-content: center;
+}
+#what-we-do > .container > .row > .col-4, #portfolio > .container > .row > .col-3 {
+          min-width: 100%;
+}
+#contact .d-flex {
+          flex-direction: column;
+}
+#contact .ml-2 {
+          margin-left: 0px !important;
+          margin-top: 0.5em;
+}
+#contact, #services, #banner {
+          height: 55vh;
+} */
+
+
+
+
+
+
+
+
