@@ -1,51 +1,4 @@
-/* 
-.image {
-    display: block;
-    width: 30%;
-    height: 50%;
-    margin-left: 110px;
-  }   */
-/* #container{
-    display: inline-block;
-    position: relative;
-    width: 20%;
-    } */
 
-  /* #container1{
-    display: inline-block;
-    position: relative;
-    width: 20%;
-      }
-  #container2{
-    display: inline-block;
-    position: relative;
-    width: 20%;
-      } 
-  .text{
-    font-size: 20px;
-     margin-left: 380px;
-     width: 20%;  
-    display: none;
-    display: absolute;
-      }
-      .development{
-        font-size: 20px;
-        margin-left: 780px;
-        width: 20%;  
-       display: none;    
-       background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center center;
-    display: absolute;
-     
-    }
-          .product{
-            font-size: 20px;
-        margin-left: 1200px;
-        width: 20%;  
-       display: none;
-       display: absolute;
-                 } */
 
 
 .contact{
@@ -183,7 +136,7 @@ font-size: 25px;
     position: absolute;
     border: white 4px 4px solid;
       margin-left: 1280px;
-    /* margin-right: 780px; */
+    
     color: white;
    font-weight: 40px;
      padding-top:100px;
@@ -213,9 +166,8 @@ font-size: 25px;
 }
 #portfolio img:hover {
   padding: 1rem;
-  /* font-family: 'Crimson Pro', serif; */
   font-size: 40px;
-  /* color: rgb(26, 163, 140); */
+
 }
 .overlay{
   display: none;
@@ -230,7 +182,7 @@ font-size: 25px;
 }
 ::placeholder {
   color: white;
-  /* padding: 25px; */
+
 }
 .jump {
   cursor: pointer;
@@ -238,33 +190,9 @@ font-size: 25px;
 #development-p, #design-p, #product-p{
   display: none;
 }
-/* .img-fluid{
-  width: 200px;
-  height: 200px;
-} */
 
 
 
-
-/* 
-media only screen and (max-width: 768px) {
-#what-we-do > .container > .row, #portfolio > .container > .row, #contact > {
-          flex-direction: column;
-          align-content: center;
-}
-#what-we-do > .container > .row > .col-4, #portfolio > .container > .row > .col-3 {
-          min-width: 100%;
-}
-#contact .d-flex {
-          flex-direction: column;
-}
-#contact .ml-2 {
-          margin-left: 0px !important;
-          margin-top: 0.5em;
-}
-#contact, #services, #banner {
-          height: 55vh;
-} */
 
 
 

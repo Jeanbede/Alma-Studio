@@ -4,37 +4,7 @@ setInterval(function() {
 }, 1000);
 
 
-   $(document).ready(function () {
-        $('#container').click(function () {
-            $(this).hide();
-            $('.text').show();
-        });
-      
-            $('.text').click(function(){
-                 $(this).hide();
-                $('#container').show();
-        });
-                        
-               $('#container1').click(function () {
-                $(this).hide();
-                $('.development').show();
-             });
-
-             $('.development').click(function () {
-                $(this).hide();
-                $('#container1').show();
-             });
-
-             $('#container2').click(function () {
-                $(this).toggle();
-                $('.product').toggle();
-             });
-
-             $('.product').click(function () {
-                $(this).toggle();
-                $('#container2').toggle();
-             });
-                         
+                          
              
         var btn = document.getElementById("myBtn");
 
@@ -62,8 +32,7 @@ setInterval(function() {
             event.preventDefault();
         };
                           
-    });
-
+ 
     $("#my-form").submit(function(event) {
       event.preventDefault();
       var name = $("#contact-name").val();
@@ -71,11 +40,7 @@ setInterval(function() {
       document.getElementById("my-form").reset();
   });
 
-             
-           
-
-
-
+     
 
   $(document).ready(function(){
     $("#design").click(function(){
@@ -113,13 +78,7 @@ $(document).ready(function(){
         $("#product-p").toggle()
     });
 });
-$(document).ready(function getResponse(){
-    var name = document.getElementById("#name").value();
-    $("button#submit").click(function(){
-        alert("Hi, " + name + " .Your message has been received!")
-    })
-    preventDefault()
-})
+
 $(document).ready(function(){
     $("#wrap1").hover(function(){
         $("#hide-1").toggle();
